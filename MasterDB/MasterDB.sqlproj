@@ -63,9 +63,43 @@
     <Folder Include="Schema Objects\Schemas\dbo\Tables" />
     <Folder Include="Schema Objects\Schemas\dbo\Synonyms" />
     <Folder Include="Schema Objects\Schemas\dbo\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Database Level Objects" />
+    <Folder Include="Schema Objects\Database Level Objects\Assemblies" />
+    <Folder Include="Schema Objects\Database Level Objects\Database Triggers" />
+    <Folder Include="Schema Objects\Database Level Objects\Security" />
+    <Folder Include="Schema Objects\Database Level Objects\Service Broker" />
+    <Folder Include="Schema Objects\Database Level Objects\Storage" />
+    <Folder Include="Schema Objects\Schemas\SodaRush" />
+    <Folder Include="Schema Objects\Database Level Objects\Security\Schemas" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Programmability" />
+    <Folder Include="Schema Objects\Schemas\dbo\Views" />
+    <Folder Include="Schema Objects\Schemas\dbo\Service Broker" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Tables" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Synonyms" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Service Broker" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Views" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Programmability\Defaults" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Programmability\Functions" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Programmability\Types" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Types" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Functions" />
+    <Folder Include="Schema Objects\Schemas\dbo\Programmability\Defaults" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Constraints" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Indexes" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Keys" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Statistics" />
+    <Folder Include="Schema Objects\Schemas\dbo\Tables\Triggers" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Statistics" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Constraints" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Indexes" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Keys" />
+    <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\dbo\Tables\Company.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Tables\Authentication.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Security\Schemas\SodaRush.sql" />
+    <Build Include="Schema Objects\Schemas\SodaRush\Tables\Store.sql" />
   </ItemGroup>
 </Project>
