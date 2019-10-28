@@ -120,5 +120,7 @@
     <Build Include="Schema Objects\Schemas\DummyCompany\Tables\Store.sql" />
     <Build Include="Schema Objects\Schemas\SodaRush\Tables\Item.sql" />
     <Build Include="Schema Objects\Schemas\DummyCompany\Tables\Item.sql" />
+    <Build Include="Schema Objects\Schemas\SodaRush\Tables\ItemQuantity.sql" />
+    <Build Include="Schema Objects\Schemas\DummyCompany\Tables\ItemQuantity.sql" />
   </ItemGroup>
 </Project>
