@@ -95,11 +95,30 @@
     <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Indexes" />
     <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Keys" />
     <Folder Include="Schema Objects\Schemas\SodaRush\Tables\Triggers" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Programmability" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Programmability\Defaults" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Programmability\Functions" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Programmability\Stored Procedures" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Programmability\Types" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Service Broker" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Synonyms" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Tables" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Tables\Constraints" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Tables\Indexes" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Tables\Keys" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Tables\Statistics" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Tables\Triggers" />
+    <Folder Include="Schema Objects\Schemas\DummyCompany\Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema Objects\Schemas\dbo\Tables\Company.sql" />
     <Build Include="Schema Objects\Schemas\dbo\Tables\Authentication.sql" />
     <Build Include="Schema Objects\Database Level Objects\Security\Schemas\SodaRush.sql" />
     <Build Include="Schema Objects\Schemas\SodaRush\Tables\Store.sql" />
+    <Build Include="Schema Objects\Database Level Objects\Security\Schemas\DummyCompany.sql" />
+    <Build Include="Schema Objects\Schemas\DummyCompany\Tables\Store.sql" />
+    <Build Include="Schema Objects\Schemas\SodaRush\Tables\Item.sql" />
+    <Build Include="Schema Objects\Schemas\DummyCompany\Tables\Item.sql" />
   </ItemGroup>
 </Project>
